@@ -38,7 +38,7 @@ function endResult(nums) {
     return counter
 }
 console.log(endResult(21));
-<<<<<<< HEAD
+
 
 function result(num) {
     let counter = 0
@@ -52,5 +52,17 @@ function result(num) {
 console.log(result(20));
 console.log(result(10));
 console.log(result(16));
-=======
->>>>>>> b7f84dd4087d06e2d450e31025c55ece19dca995
+
+
+function total(numz) {
+    let counter = 0;
+    for(let i = 3; i < numz; i++) {
+        if(i % 3 === 0 || i % 5 === 0) {
+            counter += i
+        }
+    }
+    return counter
+}
+console.log(total(20));
+console.log(total(10));
+console.log(total(16));
