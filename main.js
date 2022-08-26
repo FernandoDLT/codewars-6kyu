@@ -38,3 +38,16 @@ function endResult(nums) {
     return counter
 }
 console.log(endResult(21));
+
+function result(num) {
+    let counter = 0
+    for(let i = 3; i < num; i++) {
+        if(i % 3 === 0 || i % 5 === 0) {
+            counter += i
+        }
+    }
+        return counter
+}
+console.log(result(20));
+console.log(result(10));
+console.log(result(16));
