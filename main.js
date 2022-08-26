@@ -9,7 +9,7 @@ One perameter
 Number can be negative
 
 RETURNS:
-Return the sum of l0 the numbers from 0 to the given numbers are divisible by 3 and or 5
+Return the sum of 10 the numbers from 0 to the given numbers are divisible by 3 and or 5
 
 EXAMPLES:
 Solution (10) // return 23 3+5+6+9
@@ -24,5 +24,17 @@ function solution(number){
         }
     }
     return counter
+
 }
 console.log(solution(10));
+
+function endResult(nums) {
+    let counter = 0;
+    for(let i = 3; i < nums; i++) {
+        if(i % 3 === 0 || i % 5 === 0) {
+            counter += i
+        }
+    }
+    return counter
+}
+console.log(endResult(21));
