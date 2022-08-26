@@ -38,6 +38,7 @@ function endResult(nums) {
     return counter
 }
 console.log(endResult(21));
+<<<<<<< HEAD
 
 function result(num) {
     let counter = 0
@@ -51,3 +52,5 @@ function result(num) {
 console.log(result(20));
 console.log(result(10));
 console.log(result(16));
+=======
+>>>>>>> b7f84dd4087d06e2d450e31025c55ece19dca995
